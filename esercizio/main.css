@@ -1,0 +1,41 @@
+
+body {
+  height: 100vh;
+  font-size:15px;
+  background-color: white;
+  color: black;
+  font-family: 'Comic sans';
+}
+
+/*input {
+  font-size: 15px;
+  margin-top: 10vh;
+  max-width: 50%;
+  width: inherit;
+}*/
+
+span {
+ color: red;
+}
+
+p {
+  margin-top: 3vh;
+}
+
+input {
+    width: 320px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input:focus {
+    width: 100%;
+}
+
+.button{
+  padding-top: 1vh;
+}
+
+.searchbox{
+  padding-top: 5vh;
+}
